@@ -65,13 +65,6 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
 .salta:focus { left: 16px; top: 16px; background: var(--bianco); padding: 12px 16px; z-index: 100; }
 .avviso-prova { background: var(--oro-tenue); color: var(--inchiostro); text-align: center; font-size: 13px; font-weight: 600; padding: 6px; letter-spacing: .04em; text-transform: uppercase; }
 
-/* Fascia alta */
-.fascia-alta { background: var(--rosso); color: #fff; font-size: 13.5px; }
-.fascia-alta .contenitore { display: flex; justify-content: space-between; gap: 8px 24px; padding-block: 7px; flex-wrap: wrap; }
-.fascia-alta a { color: #fff; text-decoration: none; }
-.fascia-alta a:hover { text-decoration: underline; color: #fff; }
-.fascia-contatti { display: flex; gap: 22px; }
-.fascia-alta strong { font-weight: 700; letter-spacing: .02em; }
 
 /* Intestazione: logo centrato come nel sito storico */
 .testata { background: var(--bianco); }
@@ -112,12 +105,9 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
   .menu-mobile nav a { display: block; padding: 12px 24px; color: var(--inchiostro); text-decoration: none; font-weight: 600; text-transform: uppercase; letter-spacing: .07em; font-size: 14px; border-bottom: 1px solid var(--crema); }
   .menu-mobile nav a[aria-current="page"] { color: var(--rosso); }
   .testata .pulsante-testata { padding: 9px 14px; font-size: 14px; }
-  .fascia-alta .contenitore > span:first-child { display: none; }
-  .fascia-alta .contenitore { justify-content: center; }
 }
 @media (max-width: 520px) {
   .marchio-motto { display: none; }
-  .fascia-contatti a:last-child { display: none; }
   .testata .pulsante-testata { display: none; }
   .testata-riga { grid-template-columns: 44px 1fr 44px; }
 }
