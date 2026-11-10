@@ -13,7 +13,7 @@ layout: layouts/base.njk
     {%- if content | striptags | trim %}<div class="testo">{{ content | safe }}</div>{% endif %}
 
     {%- if mostra_sedi %}{% include "sedi.njk" %}
-    <p class="nota-microcredito">Per un appuntamento chiama il numero verde <a href="tel:{{ site.numero_verde | replace(' ', '') }}"><strong>{{ site.numero_verde }}</strong></a>, il <a href="tel:+39{{ site.telefono | replace(' ', '') }}">{{ site.telefono }}</a> o scrivi a <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+    <p class="nota-microcredito">Per un appuntamento chiama il <a href="tel:+39{{ site.telefono | replace(' ', '') }}">{{ site.telefono }}</a> o scrivi a <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
     {%- endif %}
 
     {%- if documenti_categoria %}
