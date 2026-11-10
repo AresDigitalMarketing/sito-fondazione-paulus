@@ -1,0 +1,35 @@
+{
+  "titolo": "Prevenire l’usura significa difendere la dignità delle persone.",
+  "testo": "Ascoltiamo in modo gratuito e riservato famiglie e piccole imprese in difficoltà economica e le aiutiamo a tornare al credito legale, con garanzie gratuite e microcredito sociale.",
+  "numeri": [
+    { "valore": "96", "etichetta": "famiglie aiutate con credito garantito" },
+    { "valore": "1.211.800 €", "etichetta": "di finanziamenti garantiti" },
+    { "valore": "dal 2014", "etichetta": "operativa sul territorio campano" }
+  ],
+  "numeri_nota": "Dati da aprile 2014 al 31 dicembre 2025.",
+  "servizi": [
+    { "titolo": "Ascolto e orientamento", "testo": "Analizziamo la situazione economica e i debiti di chi si rivolge ai nostri sportelli e indichiamo la strada per uscire dalla crisi." },
+    { "titolo": "Garanzie per il credito bancario", "testo": "Rilasciamo garanzie gratuite che permettono di ottenere prestiti bancari a tasso agevolato e di tornare alla gestione ordinaria del credito." },
+    { "titolo": "Riorganizzazione dei debiti", "testo": "Con il credito garantito si possono sanare debiti diventati insostenibili, affrontare spese urgenti ed evitare il sovraindebitamento." },
+    { "titolo": "Contrasto all’usura", "testo": "Accompagniamo chi vuole denunciare l’usura o rischia di cadere nella rete degli usurai, collegandolo con istituzioni e forze dell’ordine." }
+  ],
+  "strumenti": [
+    { "titolo": "Fondo di prevenzione dell’usura", "importo": "fino a 20.000 €", "testo": "Previsto dall’art. 15 della legge 108/1996 e alimentato dal Ministero dell’Economia e delle Finanze: consente garanzie su prestiti bancari erogati da Banca Popolare Etica." },
+    { "titolo": "Microcredito sociale Caritas", "importo": "da 1.000 a 5.000 €", "testo": "Promosso con la Caritas Diocesana di Pozzuoli per le famiglie residenti nella Diocesi: interventi più rapidi e del tutto gratuiti. Il primo passo è rivolgersi al proprio parroco." }
+  ],
+  "banner": [
+    { "immagine": "/wp-content/uploads/2026/01/Fumetto-Paulus.jpg", "link": "/wp-content/uploads/2026/01/La-Casa-di-Antonietta-Fumetto.pdf", "testo": "Un tetto di speranza – La casa di Antonietta: scarica il fumetto" },
+    { "immagine": "/wp-content/uploads/2025/09/WhatsApp-Image-2025-08-31-at-10.25.59-2.jpeg", "link": "/wp-content/uploads/2025/09/FONDAZIONE-PAULUS-Giuseppe-Manzo.pdf", "testo": "Per superare il sovraindebitamento e prevenire il rischio usura" },
+    { "immagine": "/wp-content/uploads/2026/05/opuscolo-mef_Cover.jpg", "link": "/wp-content/uploads/2025/09/opuscolo-mef.pdf", "testo": "Opuscolo del Ministero dell’Economia e delle Finanze sul Fondo di prevenzione dell’usura" }
+  ],
+  "sedi": [
+    { "tipo": "Sede centrale", "nome": "Pozzuoli", "indirizzo": "Via Nicola Fasano, 9", "presso": "c/o Caritas Diocesana di Pozzuoli", "mappa": "https://www.google.com/maps/search/?api=1&query=Via+Nicola+Fasano+9+Pozzuoli" },
+    { "tipo": "Sede operativa", "nome": "Napoli – Pianura", "indirizzo": "Via Vicinale Trencia, 62", "presso": "c/o Associazione dei Commercianti di Pianura", "mappa": "https://www.google.com/maps/search/?api=1&query=Via+Vicinale+Trencia+62+Napoli" }
+  ],
+  "partner": [
+    { "immagine": "/wp-content/uploads/2025/08/Logo-super-diocesi.jpg", "nome": "Diocesi di Pozzuoli", "link": "https://www.diocesipozzuoli.net/" },
+    { "immagine": "/wp-content/uploads/2026/01/Logo-Caritas-Small.png", "nome": "Caritas Diocesana di Pozzuoli", "link": "" },
+    { "immagine": "/wp-content/uploads/2025/08/LOGO-SEGNI-DEI-TEMPI-2020.sito-260x60-1.png", "nome": "Segni dei Tempi", "link": "https://www.segnideitempi.it/" },
+    { "immagine": "/wp-content/uploads/2025/08/Logo_mef.svg.png", "nome": "Ministero dell’Economia e delle Finanze – Prevenzione dell’usura", "link": "https://www.dt.mef.gov.it/it/attivita_istituzionali/prevenzione_reati_finanziari/anti_usura/" }
+  ]
+}

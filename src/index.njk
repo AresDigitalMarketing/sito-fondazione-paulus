@@ -1,0 +1,129 @@
+---
+layout: layouts/base.njk
+permalink: /
+---
+{%- import "schede.njk" as s -%}
+{%- set ultime = collections.notizie | primi(3) -%}
+
+<section class="apertura" aria-labelledby="titolo-apertura">
+  <div class="contenitore apertura-griglia">
+    <div class="apertura-testo">
+      <p class="occhiello">Fondazione antiusura della Diocesi di Pozzuoli</p>
+      <h1 id="titolo-apertura">{{ home.titolo }}</h1>
+      <p class="apertura-sottotitolo">{{ home.testo }}</p>
+      <div class="pulsanti">
+        <a class="pulsante" href="tel:{{ site.numero_verde | replace(' ', '') }}">Chiama il numero verde {{ site.numero_verde }}</a>
+        <a class="pulsante contorno" href="#come-ti-aiutiamo">Come ti aiutiamo</a>
+      </div>
+    </div>
+    <div class="apertura-numeri" aria-label="I risultati della Fondazione">
+      {%- for n in home.numeri %}
+      <div class="numero">
+        <strong>{{ n.valore }}</strong>
+        <span>{{ n.etichetta }}</span>
+      </div>
+      {%- endfor %}
+      {%- if home.numeri_nota %}<p class="numeri-nota">{{ home.numeri_nota }}</p>{% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="sezione" aria-labelledby="titolo-notizie">
+  <div class="contenitore notizie-griglia">
+    <div class="notizie-principali">
+      <div class="testa-sezione">
+        <h2 id="titolo-notizie" class="titolo-sezione">Ultime notizie</h2>
+        <a class="link-freccia" href="/notizie/">Tutti gli articoli</a>
+      </div>
+      {%- if ultime.length %}
+      {%- set n = ultime[0] %}
+      <a class="notizia-grande" href="{{ n.url }}">
+        {{ s.immagine(n.data.image, n.data.image_alt or "", "notizia-grande-img") }}
+        <div class="notizia-grande-corpo">
+          <time class="scheda-data" datetime="{{ n.date | dataIso }}">{{ n.date | dataIt }}</time>
+          <span class="notizia-grande-titolo">{{ n.data.title }}</span>
+          {%- if n.data.excerpt %}<p>{{ n.data.excerpt }}</p>{% endif %}
+          <span class="pulsante piccolo">Vai all’articolo</span>
+        </div>
+      </a>
+      <div class="notizie-altre">
+        {%- for n in ultime %}{% if not loop.first %}
+        <a class="notizia-riga" href="{{ n.url }}">
+          {{ s.immagine(n.data.image, "", "notizia-riga-img") }}
+          <span>
+            <time class="scheda-data" datetime="{{ n.date | dataIso }}">{{ n.date | dataIt }}</time>
+            <b>{{ n.data.title }}</b>
+          </span>
+        </a>
+        {%- endif %}{% endfor %}
+      </div>
+      {%- endif %}
+    </div>
+    <aside class="banner-colonna" aria-label="In evidenza">
+      {%- for b in home.banner %}
+      <a class="banner" href="{{ b.link }}"{% if b.link | isPdf %} target="_blank" rel="noopener"{% endif %}>
+        <img src="{{ b.immagine }}" alt="{{ b.testo }}" loading="lazy" decoding="async">
+      </a>
+      {%- endfor %}
+    </aside>
+  </div>
+</section>
+
+<section class="sezione crema" id="come-ti-aiutiamo" aria-labelledby="titolo-aiuto">
+  <div class="contenitore">
+    <div class="intro-sezione">
+      <p class="occhiello">Come ti aiutiamo</p>
+      <h2 id="titolo-aiuto" class="titolo-sezione">Un percorso per uscire dalla crisi, senza costi</h2>
+      <p>Chi si rivolge alla Fondazione viene ascoltato e accompagnato passo dopo passo, nel rispetto della riservatezza.</p>
+    </div>
+    <ol class="servizi">
+      {%- for v in home.servizi %}
+      <li>
+        <span class="servizio-num" aria-hidden="true">{{ "0" + loop.index }}</span>
+        <h3>{{ v.titolo }}</h3>
+        <p>{{ v.testo }}</p>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="sezione" aria-labelledby="titolo-strumenti">
+  <div class="contenitore">
+    <div class="intro-sezione">
+      <p class="occhiello">Gli strumenti</p>
+      <h2 id="titolo-strumenti" class="titolo-sezione">Due fondi per tornare al credito legale</h2>
+    </div>
+    <div class="strumenti">
+      {%- for t in home.strumenti %}
+      <div class="strumento">
+        <span class="strumento-importo">{{ t.importo }}</span>
+        <h3>{{ t.titolo }}</h3>
+        <p>{{ t.testo }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+    <p class="strumenti-link"><a class="link-freccia" href="/chi-siamo/">Scopri chi siamo e come lavoriamo</a></p>
+  </div>
+</section>
+
+<section class="motto" aria-label="Il nostro motto">
+  <div class="contenitore">
+    <blockquote>
+      <p>«Solidarietà è il nuovo nome<br>della carità evangelica»</p>
+    </blockquote>
+  </div>
+</section>
+
+<section class="sezione chiamata" aria-labelledby="titolo-chiamata">
+  <div class="contenitore chiamata-riga">
+    <div>
+      <h2 id="titolo-chiamata">Sei in difficoltà con i debiti?</h2>
+      <p>Non aspettare che la situazione peggiori. Parlarne con noi è gratuito e riservato.</p>
+    </div>
+    <div class="pulsanti">
+      <a class="pulsante bianco" href="tel:{{ site.numero_verde | replace(' ', '') }}">Numero verde {{ site.numero_verde }}</a>
+      <a class="pulsante contorno-bianco" href="/dove-siamo/">Dove siamo</a>
+    </div>
+  </div>
+</section>

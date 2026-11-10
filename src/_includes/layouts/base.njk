@@ -1,0 +1,159 @@
+{%- set menu = [
+  { url: "/", nome: "Home" },
+  { url: "/chi-siamo/", nome: "Chi siamo" },
+  { url: "/dove-siamo/", nome: "Dove siamo" },
+  { url: "/notizie/", nome: "Notizie" },
+  { url: "/documenti/", nome: "Documenti" },
+  { url: "/report-attivita/", nome: "Report attività" },
+  { url: "/legge-04-08-2017-n-124/", nome: "Legge 124/2017" },
+  { url: "/fotogallery/", nome: "Fotogallery" },
+  { url: "/contatti/", nome: "Contatti" }
+] -%}
+{%- set titoloPagina = (title + " – " + site.nome) if title else (site.nome + " – Fondazione antiusura della Diocesi di Pozzuoli") -%}
+{%- set descrizionePagina = (excerpt or sottotitolo or site.descrizione) | striptags -%}
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ titoloPagina }}</title>
+<meta name="description" content="{{ descrizionePagina | truncate(160) }}">
+{%- if site.modalita_prova %}
+<meta name="robots" content="noindex, nofollow">
+{%- endif %}
+<meta name="theme-color" content="#B5121B">
+<meta property="og:site_name" content="{{ site.nome }}">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="{{ title or site.nome }}">
+<meta property="og:description" content="{{ descrizionePagina | truncate(200) }}">
+<meta property="og:type" content="{{ 'article' if layout == 'layouts/articolo.njk' else 'website' }}">
+{%- if image %}<meta property="og:image" content="{{ site.url }}{{ image }}">{% endif %}
+<link rel="icon" href="/assets/img/favicon-48.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/style.css?v={{ versione }}">
+{%- if site.url %}
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{%- endif %}
+<!-- Google Consent Mode v2 (tutto negato finché non c'è consenso) + Google Tag Manager -->
+<script>
+window.SITO_TRACCIAMENTO={gtm:"{{ site.gtm_id }}",pixel:"{{ site.meta_pixel_id }}"};
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});
+gtag('set','ads_data_redaction',true);gtag('set','url_passthrough',true);
+try{var c=JSON.parse(localStorage.getItem('paulus_consent_v1'));if(c&&Date.now()-c.t<15552e6)gtag('consent','update',{analytics_storage:c.s?'granted':'denied',ad_storage:c.m?'granted':'denied',ad_user_data:c.m?'granted':'denied',ad_personalization:c.m?'granted':'denied'})}catch(e){}
+</script>
+{%- if site.gtm_id %}
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{ site.gtm_id }}');</script>
+<!-- End Google Tag Manager -->
+{%- endif %}
+<script src="/assets/js/consenso.js?v={{ versione }}" defer></script>
+</head>
+<body>
+{%- if site.gtm_id %}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{%- endif %}
+<a class="salta" href="#contenuto">Vai al contenuto</a>
+{%- if site.modalita_prova %}
+<div class="avviso-prova">Versione di prova del nuovo sito</div>
+{%- endif %}
+
+<div class="fascia-alta">
+  <div class="contenitore">
+    <span>Ascolto gratuito e riservato</span>
+    <span class="fascia-contatti">
+      <a href="tel:{{ site.numero_verde | replace(' ', '') }}">Numero verde <strong>{{ site.numero_verde }}</strong></a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </span>
+  </div>
+</div>
+
+<header class="testata">
+  <div class="contenitore testata-riga">
+    <details class="menu-mobile">
+      <summary aria-label="Apri il menu"><span></span><span></span><span></span></summary>
+      <nav aria-label="Menu principale (mobile)">
+        {%- for v in menu %}<a href="{{ v.url }}"{% if page.url == v.url %} aria-current="page"{% endif %}>{{ v.nome }}</a>{% endfor %}
+      </nav>
+    </details>
+    <a class="marchio" href="/" aria-label="{{ site.nome }} – Home">
+      <img src="/assets/img/logo-paulus.webp" alt="" width="180" height="194">
+      <span class="marchio-testo">
+        <span class="marchio-nome">Fondazione <b>Paulus</b></span>
+        <span class="marchio-motto">{{ site.motto }}</span>
+      </span>
+    </a>
+    <a class="pulsante pulsante-testata" href="/contatti/">Contatti</a>
+  </div>
+  <nav class="menu" aria-label="Menu principale">
+    <div class="contenitore">
+      {%- for v in menu %}
+      <a href="{{ v.url }}"{% if page.url == v.url or (v.url != '/' and page.url.startsWith(v.url)) or (v.url == '/notizie/' and layout == 'layouts/articolo.njk') %} aria-current="page"{% endif %}>{{ v.nome }}</a>
+      {%- endfor %}
+    </div>
+  </nav>
+</header>
+
+<main id="contenuto">
+{{ content | safe }}
+</main>
+
+<footer class="piede">
+  <div class="piede-partner">
+    <div class="contenitore">
+      <span class="piede-partner-titolo">In rete con</span>
+      <ul>
+        {%- for p in home.partner %}
+        <li>{% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">{% endif %}<img src="{{ p.immagine }}" alt="{{ p.nome }}" loading="lazy" decoding="async">{% if p.link %}</a>{% endif %}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="contenitore piede-alto">
+    <div class="piede-chi">
+      <img class="piede-logo" src="/assets/img/logo-paulus.webp" alt="" width="180" height="194" loading="lazy">
+      <div>
+        <strong class="piede-nome">Fondazione Paulus</strong>
+        <em class="piede-motto">{{ site.motto }}</em>
+      </div>
+    </div>
+    <div class="piede-col">
+      <h2>Contatti</h2>
+      <p>Numero verde <a href="tel:{{ site.numero_verde | replace(' ', '') }}">{{ site.numero_verde }}</a><br>
+      Telefono <a href="tel:+39{{ site.telefono | replace(' ', '') }}">{{ site.telefono }}</a><br>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>{% if site.pec %}<br>
+      PEC <a href="mailto:{{ site.pec }}">{{ site.pec }}</a>{% endif %}</p>
+    </div>
+    <div class="piede-col">
+      <h2>Sedi</h2>
+      <p>{% for s in home.sedi %}<strong>{{ s.nome }}</strong> – {{ s.indirizzo }}<br><span class="piede-presso">{{ s.presso }}</span>{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+    </div>
+  </div>
+  <div class="contenitore">
+    <p class="piede-iscrizioni">{{ site.iscrizioni }}</p>
+  </div>
+  <div class="piede-fondo">
+    <div class="contenitore">
+      <span>© {{ anno }} {{ site.nome }}{% if site.codice_fiscale %} – C.F. {{ site.codice_fiscale }}{% endif %}</span>
+      <nav class="piede-link" aria-label="Note legali">
+        <a href="/privacy-policy/">Privacy policy</a>
+        <a href="/cookie-policy/">Cookie policy</a>
+        <a href="#" data-cookie-prefs>Preferenze cookie</a>
+        <a href="/admin/">Area riservata</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/sito.js?v={{ versione }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# Vecchi indirizzi del sito WordPress → nuovi indirizzi
+/wp-admin/*              /admin/            302
+/wp-login.php            /admin/            302
+/tutti-gli-articoli/     /notizie/          301
+/interviste/             /notizie/          301
+/category/*              /notizie/          301
+/tag/*                   /notizie/          301
+/feed/*                  /notizie/          301
+/author/*                /                  301
+/document/*              /documenti/        301
+/document-library/       /documenti/        301
+/document-search/        /documenti/        301
+/progetti/               /                  301
+/pon-legalita/           /                  301
+/pon-legalita-campania/  /                  301
+/por-campania/           /                  301
+/pagina-di-esempio/      /                  301
+/image-credits/          /                  301
+/shop/                   /                  301
+/cart/                   /                  301
+/checkout/               /                  301
+/my-account/             /                  301
+/login/                  /admin/            302
+/membership-*            /                  301
+/your-profile/           /                  301
+/home/                   /                  301

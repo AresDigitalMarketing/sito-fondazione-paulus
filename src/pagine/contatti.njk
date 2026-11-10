@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+title: Contatti
+permalink: /contatti/
+---
+<div class="contenitore pagina-testa">
+  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a><span aria-hidden="true">/</span>Contatti</nav>
+  <h1>Contatti</h1>
+  <p>Se ti trovi in difficoltà economica o temi di cadere nella rete dell’usura, contattaci: <strong>l’ascolto è gratuito e riservato</strong>.</p>
+</div>
+<div class="contenitore" style="padding-bottom:80px">
+  <div class="contatti-grid">
+    <div class="contatto evidente"><span>Numero verde gratuito</span><a href="tel:{{ site.numero_verde | replace(' ', '') }}">{{ site.numero_verde }}</a></div>
+    <div class="contatto"><span>Telefono</span><a href="tel:+39{{ site.telefono | replace(' ', '') }}">{{ site.telefono }}</a></div>
+    <div class="contatto"><span>Email</span><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+    {%- if site.pec %}<div class="contatto"><span>PEC</span><a href="mailto:{{ site.pec }}">{{ site.pec }}</a></div>{% endif %}
+  </div>
+  <h2 class="titolo-sezione" style="margin-top:64px">Le nostre sedi</h2>
+  {% include "sedi.njk" %}
+  <p class="nota-microcredito"><strong>Microcredito sociale Caritas:</strong> se risiedi nella Diocesi di Pozzuoli, il primo passo è rivolgerti al parroco della tua parrocchia, che ti accompagnerà nella richiesta insieme alla Caritas diocesana.</p>
+</div>

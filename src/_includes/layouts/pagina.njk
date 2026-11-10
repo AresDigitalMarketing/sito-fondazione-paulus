@@ -1,0 +1,68 @@
+---
+layout: layouts/base.njk
+---
+{%- import "schede.njk" as s -%}
+<div class="contenitore pagina-testa">
+  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a><span aria-hidden="true">/</span>{{ title }}</nav>
+  <h1>{{ title }}</h1>
+  {%- if sottotitolo %}<p>{{ sottotitolo }}</p>{% endif %}
+</div>
+<div class="contenitore pagina-corpo{% if organi %} con-colonna{% endif %}">
+  <div class="pagina-principale">
+    {%- if image %}<img class="pagina-immagine" src="{{ image }}" alt="{{ image_alt or '' }}">{% endif %}
+    {%- if content | striptags | trim %}<div class="testo">{{ content | safe }}</div>{% endif %}
+
+    {%- if mostra_sedi %}{% include "sedi.njk" %}
+    <p class="nota-microcredito">Per un appuntamento chiama il numero verde <a href="tel:{{ site.numero_verde | replace(' ', '') }}"><strong>{{ site.numero_verde }}</strong></a>, il <a href="tel:+39{{ site.telefono | replace(' ', '') }}">{{ site.telefono }}</a> o scrivi a <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+    {%- endif %}
+
+    {%- if documenti_categoria %}
+      {%- set elenco = collections.documenti | perCategoria(documenti_categoria) %}
+      {%- if elenco.length %}
+      <h2 class="titolo-sezione">{{ titolo_documenti or "Documenti da scaricare" }}</h2>
+      {{ s.documenti(elenco) }}
+      {%- endif %}
+    {%- endif %}
+    {%- for sez in altre_sezioni %}
+      {%- set elenco = collections.documenti | perCategoria(sez) %}
+      {%- if elenco.length %}
+      <h2 class="titolo-sezione">{{ sez }}</h2>
+      {{ s.documenti(elenco) }}
+      {%- endif %}
+    {%- endfor %}
+
+    {%- if galleria and galleria.length %}
+    <div class="foto{% if didascalie %} con-didascalie{% endif %}" data-galleria>
+      {%- for f in galleria %}
+      <figure>
+        <button type="button" data-src="{{ f }}" aria-label="Ingrandisci immagine {{ loop.index }}"><img src="{{ f }}" alt="{{ title }}{% if didascalie and didascalie[loop.index0] %} – {{ didascalie[loop.index0] }}{% endif %}" loading="lazy" decoding="async"></button>
+        {%- if didascalie and didascalie[loop.index0] %}<figcaption>{{ didascalie[loop.index0] }}</figcaption>{% endif %}
+      </figure>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+
+    {%- for a in album %}
+    <section class="album">
+      <h2 class="titolo-sezione">{{ a.titolo }}</h2>
+      {%- if a.testo %}<p>{{ a.testo }}</p>{% endif %}
+      <div class="foto mosaico" data-galleria>
+        {%- for f in a.foto %}
+        <button type="button" data-src="{{ f }}" aria-label="Ingrandisci foto {{ loop.index }}"><img src="{{ f }}" alt="{{ a.titolo }} – foto {{ loop.index }}" loading="lazy" decoding="async"></button>
+        {%- endfor %}
+      </div>
+    </section>
+    {%- endfor %}
+  </div>
+
+  {%- if organi %}
+  <aside class="colonna-organi" aria-label="Organi della Fondazione">
+    {%- for o in organi %}
+    <div class="organo">
+      <h2>{{ o.titolo }}</h2>
+      <ul>{% for v in o.voci %}<li>{{ v | markdownInline | safe }}</li>{% endfor %}</ul>
+    </div>
+    {%- endfor %}
+  </aside>
+  {%- endif %}
+</div>

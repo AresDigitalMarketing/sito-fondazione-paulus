@@ -1,0 +1,32 @@
+{%- macro immagine(src, alt, classe="scheda-img") -%}
+{%- if src -%}
+<img class="{{ classe }}" src="{{ src }}" alt="{{ alt }}" loading="lazy" decoding="async">
+{%- else -%}
+<div class="{{ classe }} vuota"><img src="/assets/img/logo-paulus.webp" alt=""></div>
+{%- endif -%}
+{%- endmacro -%}
+
+{%- macro notizia(n) -%}
+<a class="scheda" href="{{ n.url }}">
+  {{ immagine(n.data.image, n.data.image_alt or "") }}
+  <div class="scheda-corpo">
+    <time class="scheda-data" datetime="{{ n.date | dataIso }}">{{ n.date | dataIt }}</time>
+    <span class="scheda-titolo">{{ n.data.title }}</span>
+    {%- if n.data.excerpt %}<p class="scheda-testo">{{ n.data.excerpt }}</p>{% endif %}
+    <span class="link-freccia">Leggi l’articolo</span>
+  </div>
+</a>
+{%- endmacro -%}
+
+{%- macro documenti(elenco) -%}
+<ul class="elenco-doc">
+{%- for d in elenco %}
+  <li><a href="{{ d.data.file }}" target="_blank" rel="noopener">
+    <span class="tipo">{{ d.data.file | estensione }}</span>
+    <span class="titolo">{{ d.data.title }}</span>
+    {%- if d.data.mostra_data %}<span class="data">{{ d.date | dataIt }}</span>{% endif %}
+    <span class="scarica" aria-hidden="true">Apri</span>
+  </a></li>
+{%- endfor %}
+</ul>
+{%- endmacro -%}

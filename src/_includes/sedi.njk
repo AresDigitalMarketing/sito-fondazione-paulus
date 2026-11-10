@@ -1,0 +1,10 @@
+<div class="sedi">
+  {%- for s in home.sedi %}
+  <div class="sede">
+    <span class="sede-tipo">{{ s.tipo }}</span>
+    <strong>{{ s.nome }}</strong>
+    <p>{{ s.indirizzo }}{% if s.presso %}<br><span>{{ s.presso }}</span>{% endif %}</p>
+    {%- if s.mappa %}<a class="link-freccia" href="{{ s.mappa }}" target="_blank" rel="noopener">Apri la mappa</a>{% endif %}
+  </div>
+  {%- endfor %}
+</div>

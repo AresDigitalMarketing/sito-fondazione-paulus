@@ -1,0 +1,237 @@
+# Configurazione del pannello di gestione (Sveltia CMS) – Fondazione Paulus
+
+backend:
+  name: github
+  repo: AresDigitalMarketing/sito-fondazione-paulus
+  branch: main
+  base_url: https://sveltia-cms-auth.aresdigitalmarketing.workers.dev
+  commit_messages:
+    create: "Nuovo contenuto: {{collection}} “{{slug}}”"
+    update: "Modifica: {{collection}} “{{slug}}”"
+    delete: "Eliminato: {{collection}} “{{slug}}”"
+    uploadMedia: "Caricato file “{{path}}”"
+    deleteMedia: "Eliminato file “{{path}}”"
+
+logo:
+  src: /assets/img/logo-paulus.webp
+
+media_folder: src/uploads
+public_folder: /uploads
+
+# Le foto caricate vengono ridotte e convertite in formato leggero (WebP) in automatico
+media_libraries:
+  default:
+    config:
+      max_file_size: 25000000
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 82
+          width: 2000
+          height: 2000
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: notizie
+    label: Notizie
+    label_singular: notizia
+    description: Articoli e aggiornamenti. Compaiono in home page e nella pagina Notizie.
+    folder: src/notizie
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{date | date('DD/MM/YYYY')}} — {{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
+      - { label: Foto principale, name: image, widget: image, required: false }
+      - { label: Descrizione della foto, name: image_alt, widget: string, required: false, hint: "Breve descrizione, utile a chi non vede l’immagine (es. «Il Consiglio di Amministrazione riunito»)" }
+      - { label: Sommario, name: excerpt, widget: text, required: false, hint: "Una o due frasi: compaiono nell’anteprima e quando l’articolo viene condiviso." }
+      - { label: Testo, name: body, widget: markdown }
+      - { label: Video YouTube (facoltativo), name: video, widget: string, required: false, hint: "Incolla il link del video su YouTube: comparirà in fondo al testo." }
+      - { label: Altre foto, name: galleria, widget: image, multiple: true, required: false }
+
+  - name: documenti
+    label: Documenti
+    label_singular: documento
+    description: Bilanci, verbali, report e altri file da scaricare.
+    folder: src/documenti
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{categoria}} — {{title}}"
+    sortable_fields:
+      fields: [date, title, categoria]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD, hint: "Serve a ordinare l’elenco: i più recenti in alto." }
+      - label: Sezione
+        name: categoria
+        widget: select
+        options: ["Fondazione", "Bilanci e verbali", "Materiali informativi", "Report attività"]
+        hint: "«Fondazione» = pagina Chi siamo; «Bilanci e verbali» e «Materiali informativi» = pagina Documenti; «Report attività» = pagina Report attività."
+      - { label: File, name: file, widget: file }
+      - { label: Mostra la data accanto al titolo, name: mostra_data, widget: boolean, default: false, required: false }
+
+  - name: pagine
+    label: Pagine
+    label_singular: pagina
+    description: Le pagine fisse del sito.
+    files:
+      - label: Chi siamo
+        name: chi_siamo
+        file: src/pagine/chi-siamo.md
+        fields:
+          - { label: Titolo, name: title, widget: string }
+          - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
+          - { label: Testo, name: body, widget: markdown }
+          - label: Organi (colonna a destra)
+            name: organi
+            widget: list
+            summary: "{{titolo}}"
+            fields:
+              - { label: Titolo (es. Comitato Etico), name: titolo, widget: string }
+              - { label: Nomi, name: voci, widget: list, field: { label: Nome, name: voce, widget: string } }
+          - { label: Titolo dell’elenco documenti, name: titolo_documenti, widget: string, required: false }
+      - label: Dove siamo
+        name: dove_siamo
+        file: src/pagine/dove-siamo.md
+        fields:
+          - { label: Titolo, name: title, widget: string }
+          - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
+          - { label: Testo (facoltativo), name: body, widget: markdown, required: false, hint: "Le sedi si modificano da Impostazioni → Home page e sedi." }
+      - label: Documenti
+        name: documenti_pagina
+        file: src/pagine/documenti.md
+        fields:
+          - { label: Titolo, name: title, widget: string }
+          - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
+          - { label: Testo (facoltativo), name: body, widget: markdown, required: false, hint: "I file si aggiungono dalla sezione Documenti." }
+      - label: Report attività
+        name: report
+        file: src/pagine/report-attivita.md
+        fields:
+          - { label: Titolo, name: title, widget: string }
+          - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
+          - { label: Testo (facoltativo), name: body, widget: markdown, required: false, hint: "I report si aggiungono dalla sezione Documenti, scegliendo «Report attività»." }
+      - label: Legge 124/2017
+        name: legge124
+        file: src/pagine/legge-04-08-2017-n-124.md
+        fields:
+          - { label: Titolo, name: title, widget: string }
+          - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
+          - { label: Testo, name: body, widget: markdown, required: false }
+          - { label: Prospetti (immagini), name: galleria, widget: image, multiple: true, required: false }
+          - { label: Didascalie (stesso ordine delle immagini, es. Anno 2025), name: didascalie, widget: list, required: false, field: { label: Didascalia, name: d, widget: string } }
+      - label: Fotogallery
+        name: fotogallery
+        file: src/pagine/fotogallery.md
+        fields:
+          - { label: Titolo, name: title, widget: string }
+          - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
+          - label: Album
+            name: album
+            widget: list
+            summary: "{{titolo}}"
+            hint: "Il primo album in elenco compare per primo nella pagina."
+            fields:
+              - { label: Titolo dell’album, name: titolo, widget: string }
+              - { label: Breve descrizione, name: testo, widget: text, required: false }
+              - { label: Foto, name: foto, widget: image, multiple: true }
+
+  - name: impostazioni
+    label: Impostazioni
+    label_singular: impostazioni
+    editor: { preview: false }
+    files:
+      - label: Home page e sedi
+        name: home
+        file: src/_data/home.json
+        fields:
+          - { label: Titolo grande, name: titolo, widget: text }
+          - { label: Testo di presentazione, name: testo, widget: text }
+          - label: Numeri
+            name: numeri
+            widget: list
+            summary: "{{valore}} {{etichetta}}"
+            fields:
+              - { label: Valore (es. 96), name: valore, widget: string }
+              - { label: Descrizione, name: etichetta, widget: string }
+          - { label: Nota sotto i numeri, name: numeri_nota, widget: string, required: false }
+          - label: Come ti aiutiamo
+            name: servizi
+            widget: list
+            summary: "{{titolo}}"
+            fields:
+              - { label: Titolo, name: titolo, widget: string }
+              - { label: Testo, name: testo, widget: text }
+          - label: Strumenti
+            name: strumenti
+            widget: list
+            summary: "{{titolo}}"
+            fields:
+              - { label: Titolo, name: titolo, widget: string }
+              - { label: Importo, name: importo, widget: string }
+              - { label: Testo, name: testo, widget: text }
+          - label: Banner “In evidenza”
+            name: banner
+            widget: list
+            summary: "{{testo}}"
+            fields:
+              - { label: Immagine, name: immagine, widget: image }
+              - { label: Link (pagina o PDF), name: link, widget: string }
+              - { label: Descrizione, name: testo, widget: string }
+          - label: Sedi
+            name: sedi
+            widget: list
+            summary: "{{nome}}"
+            fields:
+              - { label: Tipo (es. Sede operativa), name: tipo, widget: string }
+              - { label: Nome, name: nome, widget: string }
+              - { label: Indirizzo, name: indirizzo, widget: string }
+              - { label: Presso, name: presso, widget: string, required: false }
+              - { label: Link alla mappa, name: mappa, widget: string, required: false }
+          - label: Loghi “In rete con”
+            name: partner
+            widget: list
+            summary: "{{nome}}"
+            fields:
+              - { label: Logo, name: immagine, widget: image }
+              - { label: Nome, name: nome, widget: string }
+              - { label: Sito (facoltativo), name: link, widget: string, required: false }
+      - label: Dati della Fondazione e contatti
+        name: sito
+        file: src/_data/site.json
+        fields:
+          - { label: Nome breve, name: nome, widget: string }
+          - { label: Nome completo, name: nome_completo, widget: string }
+          - { label: Motto, name: motto, widget: string }
+          - { label: Descrizione per Google, name: descrizione, widget: text }
+          - { label: Numero verde, name: numero_verde, widget: string }
+          - { label: Telefono, name: telefono, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: PEC, name: pec, widget: string, required: false }
+          - { label: Iscrizioni e riconoscimenti, name: iscrizioni, widget: text }
+          - { label: Pagina Facebook (indirizzo), name: facebook, widget: string, required: false }
+          - { label: Profilo Instagram (indirizzo), name: instagram, widget: string, required: false }
+          - { label: Canale YouTube (indirizzo), name: youtube, widget: string, required: false }
+          - { label: Indirizzo ufficiale del sito, name: url, widget: string, hint: "https://www.fondazionepaulus.it – senza barra finale." }
+          - { label: Codice fiscale, name: codice_fiscale, widget: string, required: false }
+          - { label: Sede legale, name: sede, widget: string, hint: "Compare nella privacy policy e nella cookie policy." }
+          - { label: ID Google Tag Manager, name: gtm_id, widget: string, required: false, hint: "Es. GTM-XXXXXXX. Lascia vuoto per disattivare Tag Manager." }
+          - { label: ID Pixel di Meta, name: meta_pixel_id, widget: string, required: false, hint: "Solo numeri. Lascia vuoto per disattivare il Pixel." }
+          - label: Modalità di prova
+            name: modalita_prova
+            widget: boolean
+            hint: "Finché è attiva, il sito mostra la fascia «Versione di prova» e resta nascosto a Google. Disattivala quando il sito diventa quello ufficiale."
