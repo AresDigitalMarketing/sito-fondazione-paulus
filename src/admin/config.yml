@@ -104,13 +104,6 @@ collections:
               - { label: Titolo (es. Comitato Etico), name: titolo, widget: string }
               - { label: Nomi, name: voci, widget: list, field: { label: Nome, name: voce, widget: string } }
           - { label: Titolo dell’elenco documenti, name: titolo_documenti, widget: string, required: false }
-      - label: Dove siamo
-        name: dove_siamo
-        file: src/pagine/dove-siamo.md
-        fields:
-          - { label: Titolo, name: title, widget: string }
-          - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
-          - { label: Testo (facoltativo), name: body, widget: markdown, required: false, hint: "Le sedi si modificano da Impostazioni → Home page e sedi." }
       - label: Documenti
         name: documenti_pagina
         file: src/pagine/documenti.md
