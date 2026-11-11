@@ -326,11 +326,12 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
 .piede-partner-titolo { font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; color: var(--oro); }
 .piede-partner ul { list-style: none; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px 44px; margin: 0; padding: 0; }
 .piede-partner img { height: 56px; width: auto; object-fit: contain; filter: saturate(.9); }
-.piede-alto { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) minmax(0, 4fr); gap: 32px 48px; padding-block: 52px 28px; }
+.piede-alto { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 32px 48px; padding-block: 52px 28px; }
 .piede-chi { display: flex; gap: 18px; align-items: center; }
 .piede-logo { width: 76px; background: #fff; border-radius: 50%; padding: 4px; }
 .piede-nome { display: block; font-family: var(--serif); font-size: 24px; color: #fff; font-weight: 600; }
-.piede-motto { display: block; font-family: var(--serif); color: var(--oro-chiaro); font-size: 16px; margin-top: 4px; }
+.piede-motto { display: block; font-family: var(--serif); color: var(--oro-chiaro); font-size: 17px; margin-top: 4px; }
+@media (min-width: 1021px) { .piede-motto { white-space: nowrap; } }
 .piede-col h2 { font-family: var(--sans); font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--oro-chiaro); margin-bottom: 12px; font-weight: 700; }
 .piede-col p { margin: 0; line-height: 1.8; }
 .piede-col strong { color: #fff; font-weight: 600; }
@@ -356,8 +357,7 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
   .pagina-corpo.con-colonna { grid-template-columns: 1fr; gap: 24px; }
   .colonna-organi { position: static; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 24px; }
   .organo { border-bottom: 0; }
-  .piede-alto { grid-template-columns: 1fr 1fr; }
-  .piede-chi { grid-column: 1 / -1; }
+  .piede-alto { grid-template-columns: 1fr; }
 }
 @media (max-width: 680px) {
   body { font-size: 16.5px; }
