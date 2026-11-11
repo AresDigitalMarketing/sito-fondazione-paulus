@@ -399,3 +399,27 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
 .ck-opts input { margin-top: 4px; width: 18px; height: 18px; flex: none; accent-color: var(--rosso); }
 @media (max-width: 520px) { .ck { left: 10px; right: 10px; bottom: 10px; padding: 20px 16px 14px; } }
 .pagina-testa > p.una-riga { max-width: none; }
+
+/* Fotogallery: elenco degli album e pagina del singolo album */
+.album-elenco { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin-top: 8px; }
+.pagina-corpo:has(.album-elenco) .pagina-principale { max-width: none; }
+.album-scheda { display: flex; flex-direction: column; text-decoration: none; color: inherit; border: 1px solid var(--bordo); background: var(--bianco); transition: border-color .15s, box-shadow .15s; }
+.album-scheda:hover { border-color: var(--oro-chiaro); box-shadow: 0 18px 32px -26px rgba(30,26,23,.55); }
+.album-copertina { position: relative; display: block; aspect-ratio: 3 / 2; overflow: hidden; background: var(--crema); }
+.album-copertina img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s; }
+.album-scheda:hover .album-copertina img { transform: scale(1.03); }
+.album-conta { position: absolute; right: 12px; bottom: 12px; background: rgba(30,26,23,.78); color: #fff; font-size: 12.5px; font-weight: 600; letter-spacing: .04em; padding: 5px 10px; }
+.album-corpo { padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.album-titolo { font-family: var(--serif); font-size: 20px; line-height: 1.28; font-weight: 600; color: var(--inchiostro); }
+.album-scheda:hover .album-titolo { color: var(--rosso); }
+.album-dove { font-size: 14.5px; color: var(--testo-3); }
+.album-scheda .link-freccia { margin-top: auto; padding-top: 6px; }
+.album-luogo { font-size: 15px !important; color: var(--testo-3) !important; margin-top: 8px !important; }
+.pagina-testa .scheda-data { display: block; margin-bottom: 8px; }
+.album-foto { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.album-foto button { padding: 0; border: 0; background: var(--crema); cursor: zoom-in; display: block; width: 100%; aspect-ratio: 3 / 2; overflow: hidden; }
+.album-foto img { width: 100%; height: 100%; object-fit: cover; transition: opacity .15s, transform .3s; }
+.album-foto button:hover img { opacity: .9; transform: scale(1.03); }
+.album-ritorno { margin-top: 36px; }
+@media (max-width: 1020px) { .album-elenco, .album-foto { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .album-elenco { grid-template-columns: 1fr; } .album-foto { gap: 8px; } }

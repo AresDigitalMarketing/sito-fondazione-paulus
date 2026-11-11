@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+---
+<div class="contenitore pagina-testa">
+  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/fotogallery/">Fotogallery</a></nav>
+  <time class="scheda-data" datetime="{{ page.date | dataIso }}">{{ page.date | dataIt }}</time>
+  <h1>{{ title }}</h1>
+  {%- if luogo %}<p class="album-luogo">{{ luogo }}</p>{% endif %}
+  {%- if testo %}<p>{{ testo }}</p>{% endif %}
+</div>
+<div class="contenitore pagina-corpo">
+  <div class="album-foto" data-galleria>
+    {%- for f in foto %}
+    <button type="button" data-src="{{ f }}" aria-label="Ingrandisci la foto {{ loop.index }} di {{ foto.length }}"><img src="{{ f }}" alt="{{ title }} – foto {{ loop.index }}" loading="{{ 'eager' if loop.index <= 6 else 'lazy' }}" decoding="async"></button>
+    {%- endfor %}
+  </div>
+  <p class="album-ritorno"><a class="link-freccia" href="/fotogallery/">Torna a tutti gli album</a></p>
+</div>

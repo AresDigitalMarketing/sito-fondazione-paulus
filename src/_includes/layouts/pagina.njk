@@ -42,6 +42,27 @@ layout: layouts/base.njk
     </div>
     {%- endif %}
 
+    {%- if mostra_album %}
+    <div class="album-elenco">
+      {%- for a in collections.album %}
+      <a class="album-scheda" href="{{ a.url }}">
+        <span class="album-copertina">
+          <img src="{{ a.data.copertina or a.data.foto[0] }}" alt="" loading="lazy" decoding="async">
+          <span class="album-conta">{{ a.data.foto.length }} {{ "foto" }}</span>
+        </span>
+        <span class="album-corpo">
+          <time class="scheda-data" datetime="{{ a.date | dataIso }}">{{ a.date | dataIt }}</time>
+          <span class="album-titolo">{{ a.data.title }}</span>
+          {%- if a.data.luogo %}<span class="album-dove">{{ a.data.luogo }}</span>{% endif %}
+          <span class="link-freccia">Guarda l’album</span>
+        </span>
+      </a>
+      {%- else %}
+      <p class="vuoto">Non ci sono ancora album.</p>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+
     {%- for a in album %}
     <section class="album">
       <h2 class="titolo-sezione">{{ a.titolo }}</h2>

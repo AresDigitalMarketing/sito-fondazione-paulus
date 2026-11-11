@@ -37,6 +37,7 @@ export default function (eleventyConfig) {
     api.getFilteredByGlob(`src/${cartella}/*.md`).sort(perData);
   eleventyConfig.addCollection("notizie", raccolta("notizie"));
   eleventyConfig.addCollection("documenti", raccolta("documenti"));
+  eleventyConfig.addCollection("album", raccolta("album"));
 
   eleventyConfig.addGlobalData("anno", () => new Date().getFullYear());
   // Numero di versione: obbliga il browser a scaricare stile e script aggiornati dopo ogni modifica

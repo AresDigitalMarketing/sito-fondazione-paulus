@@ -134,21 +134,26 @@ collections:
           - { label: Testo, name: body, widget: markdown, required: false }
           - { label: Prospetti (immagini), name: galleria, widget: image, multiple: true, required: false }
           - { label: Didascalie (stesso ordine delle immagini, es. Anno 2025), name: didascalie, widget: list, required: false, field: { label: Didascalia, name: d, widget: string } }
-      - label: Fotogallery
-        name: fotogallery
-        file: src/pagine/fotogallery.md
-        fields:
-          - { label: Titolo, name: title, widget: string }
-          - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
-          - label: Album
-            name: album
-            widget: list
-            summary: "{{titolo}}"
-            hint: "Il primo album in elenco compare per primo nella pagina."
-            fields:
-              - { label: Titolo dell’album, name: titolo, widget: string }
-              - { label: Breve descrizione, name: testo, widget: text, required: false }
-              - { label: Foto, name: foto, widget: image, multiple: true }
+  - name: album
+    label: Fotogallery
+    label_singular: album
+    description: "Gli album fotografici. Usa solo foto scattate in orizzontale: nella griglia vengono mostrate tutte alla stessa dimensione."
+    folder: src/album
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{date | date('DD/MM/YYYY')}} — {{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo dell’album, name: title, widget: string }
+      - { label: Data dell’evento, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD, hint: "Gli album più recenti compaiono per primi." }
+      - { label: Luogo, name: luogo, widget: string, required: false }
+      - { label: Breve descrizione, name: testo, widget: text, required: false }
+      - { label: Foto di copertina (facoltativa), name: copertina, widget: image, required: false, hint: "Se la lasci vuota, la copertina è la prima foto dell’album." }
+      - { label: Foto, name: foto, widget: image, multiple: true }
 
   - name: impostazioni
     label: Impostazioni
