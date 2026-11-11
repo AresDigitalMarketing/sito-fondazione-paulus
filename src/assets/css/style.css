@@ -336,7 +336,7 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
 .piede-col p { margin: 0; line-height: 1.8; }
 .piede-col strong { color: #fff; font-weight: 600; }
 .piede-presso { font-size: 13.5px; color: rgba(255,255,255,.6); }
-.piede-iscrizioni { font-size: 13px; color: rgba(255,255,255,.55); margin: 0; padding-bottom: 26px; max-width: 980px; }
+.piede-iscrizioni { font-size: 13px; color: rgba(255,255,255,.55); margin: 0; padding-bottom: 26px; }
 .piede-fondo { border-top: 1px solid rgba(255,255,255,.12); }
 .piede-fondo .contenitore { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; padding-block: 18px 22px; font-size: 13.5px; }
 .piede-link { display: flex; flex-wrap: wrap; gap: 6px 20px; }
