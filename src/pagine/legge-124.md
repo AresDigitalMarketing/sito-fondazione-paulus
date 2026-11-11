@@ -13,4 +13,3 @@ didascalie:
   - Anno 2020
   - Anno 2018
 ---
-In adempimento a quanto previsto dalla legge 4 agosto 2017, n. 124, la Fondazione Paulus pubblica le informazioni relative alle sovvenzioni, ai contributi e ai vantaggi economici ricevuti dalle pubbliche amministrazioni.
