@@ -189,7 +189,7 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
 
 /* Motto */
 .motto { background: var(--bianco); padding-block: 70px; text-align: center; }
-.motto blockquote { margin: 0 auto; max-width: 820px; position: relative; padding-block: 34px; }
+.motto blockquote { margin: 0 auto; max-width: 1100px; position: relative; padding-block: 34px; }
 .motto blockquote::before, .motto blockquote::after { content: ""; position: absolute; left: 50%; width: 120px; height: 1px; background: var(--oro); transform: translateX(-50%); }
 .motto blockquote::before { top: 0; }
 .motto blockquote::after { bottom: 0; }
