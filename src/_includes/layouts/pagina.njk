@@ -32,7 +32,7 @@ layout: layouts/base.njk
     {%- endfor %}
 
     {%- if galleria and galleria.length %}
-    <div class="foto{% if didascalie %} con-didascalie{% endif %}" data-galleria>
+    <div class="foto{% if didascalie %} con-didascalie{% endif %}{% if classe_galleria %} {{ classe_galleria }}{% endif %}" data-galleria>
       {%- for f in galleria %}
       <figure>
         <button type="button" data-src="{{ f }}" aria-label="Ingrandisci immagine {{ loop.index }}"><img src="{{ f }}" alt="{{ title }}{% if didascalie and didascalie[loop.index0] %} – {{ didascalie[loop.index0] }}{% endif %}" loading="lazy" decoding="async"></button>
