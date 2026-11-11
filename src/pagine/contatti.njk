@@ -10,10 +10,8 @@ permalink: /contatti/
 </div>
 <div class="contenitore" style="padding-bottom:80px">
   <div class="contatti-grid">
-    <div class="contatto evidente"><span>Numero verde gratuito</span><a href="tel:{{ site.numero_verde | replace(' ', '') }}">{{ site.numero_verde }}</a></div>
     <div class="contatto"><span>Telefono</span><a href="tel:+39{{ site.telefono | replace(' ', '') }}">{{ site.telefono }}</a></div>
     <div class="contatto"><span>Email</span><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
-    {%- if site.pec %}<div class="contatto"><span>PEC</span><a href="mailto:{{ site.pec }}">{{ site.pec }}</a></div>{% endif %}
   </div>
   <h2 class="titolo-sezione" style="margin-top:64px">Le nostre sedi</h2>
   {% include "sedi.njk" %}
