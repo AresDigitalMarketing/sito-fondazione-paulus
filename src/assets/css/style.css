@@ -398,3 +398,4 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
 .ck-opts b { color: var(--testo); }
 .ck-opts input { margin-top: 4px; width: 18px; height: 18px; flex: none; accent-color: var(--rosso); }
 @media (max-width: 520px) { .ck { left: 10px; right: 10px; bottom: 10px; padding: 20px 16px 14px; } }
+.pagina-testa > p.una-riga { max-width: none; }
