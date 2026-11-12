@@ -1,11 +1,16 @@
 ---
-title: "Intervista a Don Enzo Tiano, Presidente del Comitato Etico"
-titolo_pagina: "Intervista a Don Enzo Tiano, Presidente del Comitato Etico della Fondazione Paulus"
+title: Intervista a Don Enzo Tiano, Presidente del Comitato Etico
+url_pagina: intervista-a-don-enzo-tiano
+titolo_pagina: Intervista a Don Enzo Tiano, Presidente del Comitato Etico della Fondazione Paulus
+titolo_breve: ''
 date: 2025-08-07
 image: /uploads/articoli/intervista-don-enzo-tiano.jpg
-image_alt: "Don Enzo Tiano"
-excerpt: "Come la Fondazione Paulus traduce in aiuto concreto il principio secondo cui la solidarietà è il nuovo nome della carità evangelica."
+image_alt: Don Enzo Tiano
+excerpt: Come la Fondazione Paulus traduce in aiuto concreto il principio secondo cui la solidarietà è il nuovo nome della carità evangelica.
+video: ''
+galleria: []
 ---
+
 La Fondazione Paulus è nata il 30 dicembre 2010, per volontà del vescovo di Pozzuoli Monsignor Gennaro Pascarella, con lo scopo di aiutare famiglie e microimprese in difficoltà economiche e a rischio usura. Paulus fornisce garanzie gratuite per ottenere credito bancario a tasso agevolato al fine di ricondurre i soggetti nella gestione ordinaria del credito: in tal modo si intendono sanare pericolose posizioni debitorie, diventate insostenibili e rischiose.
 
 Per conoscere meglio le attività dell’organizzazione, abbiamo intervistato don Enzo Tiano, Presidente del Comitato Etico della Fondazione.
