@@ -1,6 +1,6 @@
 ---
 title: "Intervista a Don Enzo Tiano, Presidente del Comitato Etico"
-date: 2025-08-20
+date: 2025-08-07
 image: /wp-content/uploads/2025/08/don-Enzo-Tiano.jpg
 image_alt: "Don Enzo Tiano"
 excerpt: "Come la Fondazione Paulus traduce in aiuto concreto il principio secondo cui la solidarietà è il nuovo nome della carità evangelica."
