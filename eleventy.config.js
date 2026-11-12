@@ -23,7 +23,6 @@ export default function (eleventyConfig) {
   // I file del vecchio sito restano agli stessi indirizzi: i link già in giro continuano a funzionare
   eleventyConfig.addPassthroughCopy({ "src/wp-content": "wp-content" });
   eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
-  eleventyConfig.addPassthroughCopy({ "src/_redirects": "_redirects" });
   eleventyConfig.addPassthroughCopy({ "src/_headers": "_headers" });
   eleventyConfig.addPassthroughCopy({
     "node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2": "assets/fonts/inter.woff2",

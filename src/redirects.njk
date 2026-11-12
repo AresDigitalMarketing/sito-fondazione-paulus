@@ -1,3 +1,7 @@
+---
+permalink: /_redirects
+eleventyExcludeFromCollections: true
+---
 # Vecchi indirizzi del sito WordPress → nuovi indirizzi
 /legge-04-08-2017-n-124/  /legge-124/  301
 /dove-siamo/              /contatti/   301
@@ -29,3 +33,12 @@
 /your-profile/           /                  301
 /home/                   /                  301
 /wp-content/uploads/2025/12/EXE_Fumetto_Antonietta_ridotto.pdf  /wp-content/uploads/2026/01/La-Casa-di-Antonietta-Fumetto.pdf  301
+
+# Reindirizzamenti automatici: articoli e album a cui è stato cambiato l'indirizzo dal pannello
+{%- for n in collections.notizie %}{% if n.data.url_pagina and n.url != "/" + n.page.fileSlug + "/" %}
+/{{ n.page.fileSlug }}/  {{ n.url }}  301
+/{{ n.page.fileSlug }}  {{ n.url }}  301
+{%- endif %}{% endfor %}
+{%- for a in collections.album %}{% if a.data.url_pagina and a.url != "/fotogallery/" + a.page.fileSlug + "/" %}
+/fotogallery/{{ a.page.fileSlug }}/  {{ a.url }}  301
+{%- endif %}{% endfor %}
