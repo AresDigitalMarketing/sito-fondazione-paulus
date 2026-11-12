@@ -1,6 +1,5 @@
 ---
 title: 'Fondazione Paulus, nominati i nuovi vertici: don Fabio De Luca nuovo presidente del Comitato Etico e Luigi Cuomo confermato presidente del Consiglio di Amministrazione'
-url_pagina: ''
 titolo_pagina: Fondazione Paulus, nominati i nuovi vertici
 titolo_breve: Fondazione Paulus, nominati i nuovi vertici
 url_pagina: nominati-i-nuovi-vertici
