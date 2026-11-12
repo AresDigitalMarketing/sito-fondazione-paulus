@@ -1,7 +1,7 @@
 ---
 title: "Carlo Villano nuovo vescovo di Pozzuoli e Ischia"
 date: 2023-06-20
-image: /wp-content/uploads/2025/07/mons-carlo-villano-scaled.jpg
+image: /uploads/articoli/mons-carlo-villano.jpg
 image_alt: "Mons. Carlo Villano"
 excerpt: "Le Chiese di Ischia e Pozzuoli continueranno a essere unite «in persona episcopi»: il Papa ha nominato pastore di entrambe le diocesi il vescovo Carlo Villano."
 ---
