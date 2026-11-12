@@ -3,6 +3,7 @@ title: 'Fondazione Paulus, nominati i nuovi vertici: don Fabio De Luca nuovo pre
 url_pagina: ''
 titolo_pagina: Fondazione Paulus, nominati i nuovi vertici
 titolo_breve: Fondazione Paulus, nominati i nuovi vertici
+url_pagina: nominati-i-nuovi-vertici
 date: 2026-06-05
 image: /uploads/foto-paulus-nuovi-vertici.webp
 image_alt: Il nuovo Comitato Etico e il nuovo Consiglio di Amministrazione della Fondazione Paulus
