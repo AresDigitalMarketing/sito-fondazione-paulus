@@ -52,6 +52,7 @@ collections:
       default: { field: date, direction: descending }
     fields:
       - { label: Titolo, name: title, widget: string }
+      - { label: Titolo nella pagina dell’articolo (facoltativo), name: titolo_pagina, widget: string, required: false, hint: "Se lo compili, compare in cima all’articolo quando lo si apre. In home e nell’elenco Notizie resta il Titolo." }
       - { label: Titolo breve (facoltativo), name: titolo_breve, widget: string, required: false, hint: "Se lo compili, nell’elenco della pagina Notizie compare questo al posto del titolo completo. In home e nella pagina dell’articolo resta il titolo completo." }
       - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
       - { label: Foto principale, name: image, widget: image, required: false }

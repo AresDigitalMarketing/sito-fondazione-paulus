@@ -6,7 +6,7 @@ layout: layouts/base.njk
   <div class="contenitore stretto">
     <nav class="briciole" aria-label="Percorso"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/notizie/">Notizie</a></nav>
     <time class="scheda-data" datetime="{{ page.date | dataIso }}">{{ page.date | dataIt }}</time>
-    <h1>{{ title }}</h1>
+    <h1>{{ titolo_pagina or title }}</h1>
     {%- if excerpt %}<p class="sommario">{{ excerpt }}</p>{% endif %}
   </div>
   {%- if image %}

@@ -1,5 +1,6 @@
 ---
 title: "Intervista a Don Enzo Tiano, Presidente del Comitato Etico"
+titolo_pagina: "Intervista a Don Enzo Tiano, Presidente del Comitato Etico della Fondazione Paulus"
 date: 2025-08-07
 image: /uploads/articoli/intervista-don-enzo-tiano.jpg
 image_alt: "Don Enzo Tiano"
