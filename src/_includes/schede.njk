@@ -11,7 +11,7 @@
   {{ immagine(n.data.image, n.data.image_alt or "") }}
   <div class="scheda-corpo">
     <time class="scheda-data" datetime="{{ n.date | dataIso }}">{{ n.date | dataIt }}</time>
-    <span class="scheda-titolo">{{ n.data.title }}</span>
+    <span class="scheda-titolo">{{ n.data.titolo_breve or n.data.title }}</span>
     {%- if n.data.excerpt %}<p class="scheda-testo">{{ n.data.excerpt }}</p>{% endif %}
     <span class="link-freccia">Leggi l’articolo</span>
   </div>
