@@ -1,10 +1,16 @@
 ---
-title: "Carlo Villano nuovo vescovo di Pozzuoli e Ischia"
+title: Carlo Villano nuovo vescovo di Pozzuoli e Ischia
+url_pagina: carlo-villano-nuovo-vescovo-di-pozzuoli-e-ischia
+titolo_pagina: ''
+titolo_breve: ''
 date: 2023-06-20
 image: /uploads/articoli/mons-carlo-villano.jpg
-image_alt: "Mons. Carlo Villano"
-excerpt: "Le Chiese di Ischia e Pozzuoli continueranno a essere unite «in persona episcopi»: il Papa ha nominato pastore di entrambe le diocesi il vescovo Carlo Villano."
+image_alt: Mons. Carlo Villano
+excerpt: 'Le Chiese di Ischia e Pozzuoli continueranno a essere unite «in persona episcopi»: il Papa ha nominato pastore di entrambe le diocesi il vescovo Carlo Villano.'
+video: ''
+galleria: []
 ---
+
 Le Chiese di Ischia e Pozzuoli continueranno a essere unite «in persona episcopi». Così ha deciso il Papa nominando nuovo pastore di entrambe le diocesi campane il vescovo Carlo Villano, 53 anni, già ausiliare dal settembre 2021 proprio di Pozzuoli, affiancando il vescovo Gennaro Pascarella del quale ora raccoglie il testimone. Pascarella lascia il suo incarico avendo compiuto i 75 anni di età, limite canonico raggiunto il quale i vescovi presentano al Papa la loro rinuncia.
 
 L’annuncio della nomina di Villano è stato dato ieri da Pascarella durante un incontro del clero di Pozzuoli e di Ischia presso la Basilica di Sant’Alfonso a Pagani, in provincia di Salerno. Le due Chiese sorelle hanno espresso la loro gratitudine a Francesco per il dono del nuovo vescovo. In attesa del suo arrivo continueranno a essere guidate da Pascarella in qualità di amministratore apostolico.
