@@ -1,5 +1,5 @@
 ---
-title: "Al via il microcredito sociale: un nuovo sostegno concreto alle famiglie in difficoltà"
+title: "Al via il microcredito sociale nella Diocesi di Pozzuoli"
 date: 2025-11-25
 image: /wp-content/uploads/2026/01/Convenzione-paulus-whatsapp.jpeg
 image_alt: "La firma della convenzione per il microcredito Caritas tra Fondazione Paulus e Caritas Diocesana di Pozzuoli"
