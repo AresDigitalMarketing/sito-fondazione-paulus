@@ -1,11 +1,16 @@
 ---
-title: "Fondazione Paulus, nominati i nuovi vertici: don Fabio De Luca nuovo presidente del Comitato Etico e Luigi Cuomo confermato presidente del Consiglio di Amministrazione"
-titolo_breve: "Fondazione Paulus, nominati i nuovi vertici"
+title: 'Fondazione Paulus, nominati i nuovi vertici: don Fabio De Luca nuovo presidente del Comitato Etico e Luigi Cuomo confermato presidente del Consiglio di Amministrazione'
+url_pagina: F
+titolo_pagina: Fondazione Paulus, nominati i nuovi vertici
+titolo_breve: Fondazione Paulus, nominati i nuovi vertici
 date: 2026-06-05
 image: /uploads/foto-paulus-nuovi-vertici.webp
-image_alt: "Il nuovo Comitato Etico e il nuovo Consiglio di Amministrazione della Fondazione Paulus"
-excerpt: "Rinnovati il Comitato Etico e il Consiglio di Amministrazione della Fondazione Antiusura Paulus. Il Vescovo Carlo Villano rilancia l’impegno a sostegno delle famiglie e delle imprese in difficoltà."
+image_alt: Il nuovo Comitato Etico e il nuovo Consiglio di Amministrazione della Fondazione Paulus
+excerpt: Rinnovati il Comitato Etico e il Consiglio di Amministrazione della Fondazione Antiusura Paulus. Il Vescovo Carlo Villano rilancia l’impegno a sostegno delle famiglie e delle imprese in difficoltà.
+video: ''
+galleria: []
 ---
+
 La Fondazione Antiusura Paulus guarda al futuro rinnovando i propri organismi di governo e confermando il proprio impegno al fianco delle famiglie, dei lavoratori e delle piccole attività economiche che affrontano situazioni di difficoltà economica e rischio usura.
 
 Nei giorni scorsi si sono infatti ufficialmente insediati il nuovo Comitato Etico e il nuovo Consiglio di Amministrazione della Fondazione per il prossimo triennio, nell’ambito del percorso di rinnovo promosso da Sua Eccellenza Monsignor Carlo Villano, Vescovo di Pozzuoli e Ischia e fondatore della stessa Fondazione Paulus.
