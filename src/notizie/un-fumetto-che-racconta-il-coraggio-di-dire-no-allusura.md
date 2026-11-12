@@ -1,10 +1,14 @@
 ---
-title: "Un fumetto che racconta il coraggio di dire no all’usura"
+title: Un fumetto che racconta il coraggio di dire no all’usura
+titolo_breve: ''
 date: 2025-11-23
-image: /uploads/articoli/fumetto-la-casa-di-antonietta.jpg
-image_alt: "La presentazione del fumetto «Un tetto di speranza – La casa di Antonietta»"
-excerpt: "«Un tetto di speranza – La casa di Antonietta» è il primo fumetto della Fondazione Paulus: una storia vera di fragilità, coraggio e riscatto, distribuita gratuitamente."
+image: /uploads/album/presentazione-22-11-2025-02.jpg
+image_alt: La presentazione del fumetto «Un tetto di speranza – La casa di Antonietta»
+excerpt: '«Un tetto di speranza – La casa di Antonietta» è il primo fumetto della Fondazione Paulus: una storia vera di fragilità, coraggio e riscatto, distribuita gratuitamente.'
+video: ''
+galleria: []
 ---
+
 ## «Un tetto di speranza – La casa di Antonietta»: un fumetto per raccontare una libertà riconquistata
 
 *Un tetto di speranza – La casa di Antonietta* è il primo fumetto realizzato dalla Fondazione Paulus e racconta una storia vera di fragilità, coraggio e riscatto. È la storia di Antonietta, una donna che, travolta da difficoltà economiche improvvise, si è ritrovata nel mirino di un pericoloso usuraio, rischiando di perdere non solo la propria serenità, ma anche la casa in cui viveva.
