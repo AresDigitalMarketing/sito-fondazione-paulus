@@ -1,5 +1,5 @@
 ---
-title: "Intervista a Don Enzo Tiano, Presidente del Comitato Etico della Fondazione Paulus e Vicario Diocesano della Forania di Pianura"
+title: "Intervista a Don Enzo Tiano, Presidente del Comitato Etico"
 date: 2025-08-20
 image: /wp-content/uploads/2025/08/don-Enzo-Tiano.jpg
 image_alt: "Don Enzo Tiano"
