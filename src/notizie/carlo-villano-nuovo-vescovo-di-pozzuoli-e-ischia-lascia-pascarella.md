@@ -1,5 +1,5 @@
 ---
-title: "Carlo Villano nuovo vescovo di Pozzuoli e Ischia. Lascia Pascarella"
+title: "Carlo Villano nuovo vescovo di Pozzuoli e Ischia"
 date: 2025-07-01
 image: /wp-content/uploads/2025/07/mons-carlo-villano-scaled.jpg
 image_alt: "Mons. Carlo Villano"
