@@ -1,6 +1,6 @@
 ---
 title: Al via il microcredito sociale nella Diocesi di Pozzuoli
-url_pagina: al-via-il-microcredito-sociale
+url_pagina: microcredito-sociale
 titolo_pagina: ''
 titolo_breve: ''
 date: 2026-01-14
