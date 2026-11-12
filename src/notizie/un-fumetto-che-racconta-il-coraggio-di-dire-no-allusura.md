@@ -1,5 +1,7 @@
 ---
 title: Un fumetto che racconta il coraggio di dire no all’usura
+url_pagina: un-tetto-di-speranza
+titolo_pagina: ''
 titolo_breve: ''
 date: 2025-11-23
 image: /uploads/album/presentazione-22-11-2025-02.jpg
