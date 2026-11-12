@@ -1,6 +1,6 @@
 ---
 title: Carlo Villano nuovo vescovo di Pozzuoli e Ischia
-url_pagina: carlo-villano-nuovo-vescovo-di-pozzuoli-e-ischia
+url_pagina: carlo-villano-nuovo-vescovo
 titolo_pagina: ''
 titolo_breve: ''
 date: 2023-06-20
