@@ -39,11 +39,10 @@ Le fondazioni di prevenzione dell’usura sono enti riconosciuti che operano per
 
 ## Gli strumenti di intervento
 
-L’attività della Fondazione si basa principalmente su due strumenti finanziari.
+L’attività della Fondazione si basa principalmente su due strumenti finanziari:
 
-Il primo è il **Fondo di prevenzione dell’usura** previsto dall’articolo 15 della legge 108/1996, alimentato dal Ministero dell’Economia e delle Finanze. Attraverso questo fondo la Fondazione può rilasciare garanzie che consentono l’erogazione di prestiti **fino a 20.000 euro**.
-
-Il secondo strumento è il **Fondo di microcredito sociale**, promosso e sostenuto dalla Caritas Diocesana di Pozzuoli, che consente interventi più rapidi per piccoli prestiti **compresi tra 1.000 e 5.000 euro**, destinati soprattutto alle famiglie in difficoltà.
+- Il primo è il **Fondo di prevenzione dell’usura** previsto dall’articolo 15 della legge 108/1996, alimentato dal Ministero dell’Economia e delle Finanze. Attraverso questo fondo la Fondazione può rilasciare garanzie che consentono l’erogazione di prestiti **fino a 20.000 euro**.
+- Il secondo strumento è il **Fondo di microcredito sociale**, promosso e sostenuto dalla Caritas Diocesana di Pozzuoli, che consente interventi più rapidi per piccoli prestiti **compresi tra 1.000 e 5.000 euro**, destinati soprattutto alle famiglie in difficoltà.
 
 ## La rete territoriale
 
