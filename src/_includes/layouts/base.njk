@@ -114,6 +114,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div>
         <strong class="piede-nome">Fondazione Paulus</strong>
         <em class="piede-motto">{{ site.motto }}</em>
+        {%- if site.facebook or site.instagram or site.youtube %}{% set stile = "icone" %}{% include "social.njk" %}{% endif %}
       </div>
     </div>
     <div class="piede-col">
