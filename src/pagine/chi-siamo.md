@@ -23,9 +23,9 @@ organi:
 titolo_documenti: Statuto e riconoscimenti
 ---
 
-La **Fondazione Paulus** è una fondazione impegnata nella **prevenzione dell’usura e nel sostegno alle famiglie e alle microimprese in difficoltà economica**. È nata il **30 dicembre 2010** per iniziativa dell’allora Vescovo di Pozzuoli, **Monsignor Gennaro Pascarella**, con l’obiettivo di offrire strumenti concreti di aiuto a chi rischia di cadere nella trappola dell’indebitamento e dell’usura.
+La Fondazione Paulus è una fondazione impegnata nella prevenzione dell’usura e nel sostegno alle famiglie e alle microimprese in difficoltà economica. È nata il 30 dicembre 2010 per iniziativa dell’allora Vescovo di Pozzuoli, Monsignor Gennaro Pascarella, con l’obiettivo di offrire strumenti concreti di aiuto a chi rischia di cadere nella trappola dell’indebitamento e dell’usura.
 
-Le fondazioni di prevenzione dell’usura sono enti riconosciuti che operano per **favorire l’accesso al credito legale** da parte di persone e famiglie che, pur trovandosi in difficoltà finanziaria, non riescono a ottenere facilmente prestiti dal sistema bancario tradizionale. Attraverso attività di ascolto, orientamento e accompagnamento, queste realtà aiutano i beneficiari a rientrare in una gestione regolare e sostenibile delle proprie finanze.
+Le fondazioni di prevenzione dell’usura sono enti riconosciuti che operano per favorire l’accesso al credito legale da parte di persone e famiglie che, pur trovandosi in difficoltà finanziaria, non riescono a ottenere facilmente prestiti dal sistema bancario tradizionale. Attraverso attività di ascolto, orientamento e accompagnamento, queste realtà aiutano i beneficiari a rientrare in una gestione regolare e sostenibile delle proprie finanze.
 
 ## Attività e servizi
 
@@ -50,15 +50,15 @@ La Fondazione ha sede presso la Caritas Diocesana di Pozzuoli, in Via Nicola Fas
 
 ## Riconoscimenti istituzionali
 
-La Fondazione Paulus è dotata di personalità giuridica ed è iscritta nel **Registro delle Persone Giuridiche della Regione Campania** (n. 272, Decreto Dirigenziale n. 32 del 1° aprile 2011). È inoltre riconosciuta dal **Ministero dell’Economia e delle Finanze** (posizione identificativa ASF/CAM/46 del 15 dicembre 2011) nell’elenco delle fondazioni e associazioni impegnate nella prevenzione del fenomeno dell’usura.
+La Fondazione Paulus è dotata di personalità giuridica ed è iscritta nel Registro delle Persone Giuridiche della Regione Campania (n. 272, Decreto Dirigenziale n. 32 del 1° aprile 2011). È inoltre riconosciuta dal Ministero dell’Economia e delle Finanze (posizione identificativa ASF/CAM/46 del 15 dicembre 2011) nell’elenco delle fondazioni e associazioni impegnate nella prevenzione del fenomeno dell’usura.
 
-La Fondazione è infine iscritta nell’**elenco delle associazioni e fondazioni antiracket e antiusura della Prefettura di Napoli** (n. 21 dal 2 gennaio 2012).
+La Fondazione è infine iscritta nell’elenco delle associazioni e fondazioni antiracket e antiusura della Prefettura di Napoli (n. 21 dal 2 gennaio 2012).
 
 ## L’attività svolta
 
 Sebbene costituita nel 2010, la Fondazione Paulus è diventata pienamente operativa nell’aprile 2014, dopo aver ottenuto tutte le autorizzazioni e i riconoscimenti previsti dalla normativa vigente.
 
-Da aprile 2014 a dicembre 2025 la Fondazione ha esaminato centinaia di richieste di accesso al credito, **accogliendone 96**, con una media di circa 8 interventi all’anno. Complessivamente sono stati **garantiti 1.211.800 euro di finanziamenti**, con un importo medio di 12.891,49 euro per intervento, contribuendo così a sostenere numerose famiglie del territorio.
+Da aprile 2014 a dicembre 2025 la Fondazione ha esaminato centinaia di richieste di accesso al credito, accogliendone 96, con una media di circa 8 interventi all’anno. Complessivamente sono stati garantiti 1.211.800 euro di finanziamenti, con un importo medio di 12.891,49 euro per intervento, contribuendo così a sostenere numerose famiglie del territorio.
 
 ## Una missione di solidarietà e legalità
 
