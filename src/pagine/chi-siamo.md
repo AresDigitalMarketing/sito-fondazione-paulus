@@ -58,7 +58,7 @@ La Fondazione è infine iscritta nell’**elenco delle associazioni e fondazioni
 
 Sebbene costituita nel 2010, la Fondazione Paulus è diventata pienamente operativa nell’aprile 2014, dopo aver ottenuto tutte le autorizzazioni e i riconoscimenti previsti dalla normativa vigente.
 
-Da aprile 2014 al 31 dicembre 2025 la Fondazione ha esaminato centinaia di richieste di accesso al credito, **accogliendone 96**, con una media di circa 8 interventi all’anno. Complessivamente sono stati **garantiti 1.211.800 euro di finanziamenti**, con un importo medio di 12.891,49 euro per intervento, contribuendo così a sostenere numerose famiglie del territorio.
+Da aprile 2014 a dicembre 2025 la Fondazione ha esaminato centinaia di richieste di accesso al credito, **accogliendone 96**, con una media di circa 8 interventi all’anno. Complessivamente sono stati **garantiti 1.211.800 euro di finanziamenti**, con un importo medio di 12.891,49 euro per intervento, contribuendo così a sostenere numerose famiglie del territorio.
 
 ## Una missione di solidarietà e legalità
 
