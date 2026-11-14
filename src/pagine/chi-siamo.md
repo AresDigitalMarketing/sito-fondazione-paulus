@@ -4,37 +4,38 @@ sottotitolo: Una fondazione della Diocesi di Pozzuoli impegnata nella prevenzion
 organi:
   - titolo: Fondatore
     voci:
-      - "**Diocesi di Pozzuoli**"
-      - "Attualmente retta da S.E. Mons. Carlo Villano, Vescovo di Pozzuoli e Ischia"
+      - '**Diocesi di Pozzuoli**'
+      - Attualmente retta da S.E. Mons. Carlo Villano, Vescovo di Pozzuoli e Ischia
   - titolo: Comitato Etico
     voci:
-      - "Don Fabio De Luca (presidente)"
-      - "Don Giuseppe Carulli"
-      - "Alfonso Liccardo"
-      - "Antonio Bucciero"
-      - "Giuseppina Trani"
+      - Don Fabio De Luca (presidente)
+      - Don Giuseppe Carulli
+      - Alfonso Liccardo
+      - Antonio Bucciero
+      - Giuseppina Trani
   - titolo: Consiglio di Amministrazione
     voci:
-      - "Luigi Cuomo (presidente)"
-      - "Domenica Centola"
-      - "Loredana Basile"
-      - "Don Vincenzo Tiano"
-      - "Dario Pinelli"
+      - Luigi Cuomo (presidente)
+      - Domenica Centola
+      - Loredana Basile
+      - Don Vincenzo Tiano
+      - Dario Pinelli
 titolo_documenti: Statuto e riconoscimenti
 ---
+
 La **Fondazione Paulus** è una fondazione impegnata nella **prevenzione dell’usura e nel sostegno alle famiglie e alle microimprese in difficoltà economica**. È nata il **30 dicembre 2010** per iniziativa dell’allora Vescovo di Pozzuoli, **Monsignor Gennaro Pascarella**, con l’obiettivo di offrire strumenti concreti di aiuto a chi rischia di cadere nella trappola dell’indebitamento e dell’usura.
 
 Le fondazioni di prevenzione dell’usura sono enti riconosciuti che operano per **favorire l’accesso al credito legale** da parte di persone e famiglie che, pur trovandosi in difficoltà finanziaria, non riescono a ottenere facilmente prestiti dal sistema bancario tradizionale. Attraverso attività di ascolto, orientamento e accompagnamento, queste realtà aiutano i beneficiari a rientrare in una gestione regolare e sostenibile delle proprie finanze.
 
 ## Attività e servizi
 
-**Sportelli di ascolto e orientamento.** Gli operatori della Fondazione analizzano la situazione economica e debitoria delle persone che si rivolgono agli sportelli, offrendo supporto, consulenza e accompagnamento nei percorsi di uscita dalla crisi.
+**Sportelli di ascolto e orientamento**: gli operatori della Fondazione analizzano la situazione economica e debitoria delle persone che si rivolgono agli sportelli, offrendo supporto, consulenza e accompagnamento nei percorsi di uscita dalla crisi.
 
-**Garanzie per l’accesso al credito bancario.** La Fondazione rilascia garanzie gratuite che consentono alle famiglie di ottenere prestiti bancari a tasso agevolato, permettendo così di rientrare nella gestione ordinaria del credito ed evitare il ricorso a canali illegali di finanziamento.
+**Garanzie per l’accesso al credito bancario**: la Fondazione rilascia garanzie gratuite che consentono alle famiglie di ottenere prestiti bancari a tasso agevolato, permettendo così di rientrare nella gestione ordinaria del credito ed evitare il ricorso a canali illegali di finanziamento.
 
-**Consolidamento e riorganizzazione dei debiti.** Attraverso il credito garantito è possibile sanare situazioni debitorie diventate insostenibili, affrontare spese urgenti e prevenire condizioni di sovraindebitamento.
+**Consolidamento e riorganizzazione dei debiti**: attraverso il credito garantito è possibile sanare situazioni debitorie diventate insostenibili, affrontare spese urgenti e prevenire condizioni di sovraindebitamento.
 
-**Contrasto e prevenzione dell’usura.** La Fondazione sostiene e accompagna le persone che intendono denunciare situazioni di usura o che rischiano di cadere nella rete degli usurai, favorendo il collegamento con le istituzioni e con le forze dell’ordine.
+**Contrasto e prevenzione dell’usura**: la Fondazione sostiene e accompagna le persone che intendono denunciare situazioni di usura o che rischiano di cadere nella rete degli usurai, favorendo il collegamento con le istituzioni e con le forze dell’ordine.
 
 ## Gli strumenti di intervento
 
