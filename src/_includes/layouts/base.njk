@@ -5,8 +5,7 @@
   { url: "/documenti/", nome: "Documenti" },
   { url: "/report-attivita/", nome: "Report attività" },
   { url: "/legge-124/", nome: "Legge 124/2017" },
-  { url: "/fotogallery/", nome: "Fotogallery" },
-  { url: "/contatti/", nome: "Contatti" }
+  { url: "/fotogallery/", nome: "Fotogallery" }
 ] -%}
 {%- set titoloPagina = (title + " – " + site.nome) if title else (site.nome + " – Fondazione antiusura della Diocesi di Pozzuoli") -%}
 {%- set descrizionePagina = (excerpt or sottotitolo or site.descrizione) | striptags -%}
@@ -72,7 +71,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <details class="menu-mobile">
       <summary aria-label="Apri il menu"><span></span><span></span><span></span></summary>
       <nav aria-label="Menu principale (mobile)">
-        {%- for v in menu %}<a href="{{ v.url }}"{% if page.url == v.url %} aria-current="page"{% endif %}>{{ v.nome }}</a>{% endfor %}
+        {%- for v in menu %}<a href="{{ v.url }}"{% if page.url == v.url %} aria-current="page"{% endif %}>{{ v.nome }}</a>{% endfor %}<a href="/contatti/"{% if page.url == "/contatti/" %} aria-current="page"{% endif %}>Contatti</a>
       </nav>
     </details>
     <a class="marchio" href="/" aria-label="{{ site.nome }} – Home">
