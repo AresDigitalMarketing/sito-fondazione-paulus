@@ -201,6 +201,7 @@ collections:
             fields:
               - { label: Tipo (es. Sede operativa), name: tipo, widget: string }
               - { label: Nome, name: nome, widget: string }
+              - { label: Nome nel footer (facoltativo), name: nome_footer, widget: string, required: false, hint: "Se lo compili, nel footer compare questo al posto del Nome. Nella pagina Contatti resta il Nome." }
               - { label: Indirizzo, name: indirizzo, widget: string }
               - { label: Presso, name: presso, widget: string, required: false }
               - { label: Link alla mappa, name: mappa, widget: string, required: false }
@@ -211,6 +212,7 @@ collections:
             fields:
               - { label: Logo, name: immagine, widget: image }
               - { label: Nome, name: nome, widget: string }
+              - { label: Nome nel footer (facoltativo), name: nome_footer, widget: string, required: false, hint: "Se lo compili, nel footer compare questo al posto del Nome. Nella pagina Contatti resta il Nome." }
               - { label: Sito (facoltativo), name: link, widget: string, required: false }
       - label: Dati della Fondazione e contatti
         name: sito

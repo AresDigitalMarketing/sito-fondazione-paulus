@@ -74,6 +74,7 @@
     {
       "tipo": "Sede operativa",
       "nome": "Napoli – Pianura",
+      "nome_footer": "Napoli",
       "indirizzo": "Via Vicinale Trencia, 62",
       "presso": "c/o Associazione dei Commercianti di Pianura",
       "mappa": "https://www.google.com/maps/search/?api=1&query=Via+Vicinale+Trencia+62+Napoli"
