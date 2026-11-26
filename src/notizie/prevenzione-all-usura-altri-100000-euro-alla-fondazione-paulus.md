@@ -3,10 +3,10 @@ title: "Prevenzione all’usura, altri 100.000 € alla Fondazione Paulus"
 url_pagina: prevenzione-usura-100000-euro
 titolo_pagina: ''
 titolo_breve: ''
-date: 2026-11-26
+date: 2026-11-24
 image: /uploads/articoli/prevenzione-usura-100000-euro.jpg
 image_alt: Il presidente del Consiglio di Amministrazione della Fondazione Paulus
-excerpt: 'Le parole del Presidente Luigi Cuomo: «Un atto di fiducia del Ministero e una responsabilità ancora più grande verso le famiglie in difficoltà»'
+excerpt: 'Le parole del Presidente Luigi Cuomo: «Un atto di fiducia del Ministero e una responsabilità ancora più grande verso le famiglie in difficoltà».'
 video: ''
 galleria: []
 ---
