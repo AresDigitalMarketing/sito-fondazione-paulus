@@ -23,4 +23,4 @@ Un sentito ringraziamento va a **Monsignor Carlo Villano**, Vescovo di Pozzuoli,
 
 Il microcredito Caritas rappresenta oggi un segnale concreto di vicinanza, responsabilità e speranza, che mette al centro la dignità delle persone e il diritto a un futuro libero dal bisogno e dall’esclusione.
 
-**L’accesso al microcredito è assolutamente gratuito e non comporta alcun onere per i beneficiari.**
+<p class="centrato"><strong>L’accesso al microcredito è assolutamente gratuito e non comporta alcun onere per i beneficiari.</strong></p>

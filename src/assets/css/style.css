@@ -439,3 +439,6 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
 .social-icone a { padding: 0; border: 0; background: transparent; width: 34px; height: 34px; justify-content: center; border-radius: 50%; }
 .social-icone a:hover { background: rgba(255,255,255,.1); }
 .social-icone svg { width: 24px; height: 24px; }
+
+/* Testo centrato negli articoli */
+.centrato { text-align: center; }
