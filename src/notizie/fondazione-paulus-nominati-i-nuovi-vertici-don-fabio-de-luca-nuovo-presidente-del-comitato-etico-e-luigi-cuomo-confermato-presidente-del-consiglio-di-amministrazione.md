@@ -21,7 +21,7 @@ Successivamente, il Comitato Etico ha proceduto alla **nomina del nuovo Consigli
 
 Nel corso della seduta, i consiglieri hanno evidenziato come il nuovo assetto rappresenti una scelta che unisce continuità e rinnovamento: da un lato la valorizzazione del lavoro svolto negli anni dalla Fondazione, dall’altro l’apertura a nuove energie e nuove responsabilità, chiamate a garantire il futuro dell’opera.
 
-> «La Fondazione dovrà essere sempre più una realtà partecipata e condivisa, capace di coinvolgere nuove persone e nuove competenze per continuare a sostenere chi vive situazioni di fragilità economica e sociale».
+> «La Fondazione dovrà essere sempre più una realtà partecipata e condivisa, capace di coinvolgere nuove persone e nuove competenze per continuare a sostenere chi vive situazioni di fragilità economica e sociale»
 > Luigi Cuomo, Presidente del Consiglio di Amministrazione della Fondazione Paulus
 
 Da oltre quindici anni la Fondazione Paulus rappresenta **un importante punto di riferimento in Campania nel contrasto al sovraindebitamento,** **all’esclusione finanziaria e al rischio usura**. Nata nell’ambito della Diocesi di Pozzuoli, nel tempo ha esteso il proprio raggio d’azione ben oltre il territorio flegreo, accompagnando famiglie, lavoratori, piccoli imprenditori e persone vulnerabili attraverso attività di ascolto, educazione finanziaria, sostegno e accesso al credito legale.
