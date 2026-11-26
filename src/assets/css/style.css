@@ -242,10 +242,7 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
 .testo h2 { font-size: 28px; margin: 1.8em 0 .55em; }
 .testo h3 { font-size: 22px; margin: 1.5em 0 .5em; }
 .testo strong { color: var(--inchiostro); font-weight: 650; }
-.testo blockquote { margin: 1.8em 0; padding: 26px 0; position: relative; text-align: center; font-family: var(--serif); font-style: italic; font-size: 21px; line-height: 1.5; color: var(--inchiostro); }
-.testo blockquote::before, .testo blockquote::after { content: ""; position: absolute; left: 50%; width: 120px; height: 1px; background: var(--oro); transform: translateX(-50%); }
-.testo blockquote::before { top: 0; }
-.testo blockquote::after { bottom: 0; }
+.testo blockquote { margin: 1.6em 0; padding: 4px 26px; border-left: 3px solid var(--oro); text-align: center; font-family: var(--serif); font-style: italic; font-size: 21px; line-height: 1.5; color: var(--inchiostro); }
 .testo blockquote p { margin: 0; }
 .testo a { font-weight: 500; }
 .testo img { margin-block: 1.2em; }
