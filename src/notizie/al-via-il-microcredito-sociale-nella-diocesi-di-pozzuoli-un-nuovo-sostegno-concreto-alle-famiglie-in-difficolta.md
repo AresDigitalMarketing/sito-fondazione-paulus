@@ -11,7 +11,7 @@ video: ''
 galleria: []
 ---
 
-È stata firmata la convenzione per l’avvio del **microcredito Caritas** nella Diocesi di Pozzuoli, frutto dell’**accordo tra la Fondazione Paulus e la Caritas Diocesana di Pozzuoli**. Si tratta di un nuovo e fondamentale strumento di sostegno alle famiglie che vivono una condizione di difficoltà economica e finanziaria, pensato per offrire risposte concrete, responsabili e accompagnate.
+È stata firmata la convenzione per l’avvio del **microcredito sociale Caritas** nella Diocesi di Pozzuoli, frutto dell’**accordo tra la Fondazione Paulus e la Caritas Diocesana di Pozzuoli**. Si tratta di un nuovo e fondamentale strumento di sostegno alle famiglie che vivono una condizione di difficoltà economica e finanziaria, pensato per offrire risposte concrete, responsabili e accompagnate.
 
 Il microcredito sociale è rivolto **esclusivamente ai nuclei familiari residenti nel territorio della Diocesi di Pozzuoli**. Per poter accedere alla misura è necessario rivolgersi al **parroco competente per territorio**, che rappresenta il primo punto di ascolto, orientamento e valutazione del bisogno, in stretta collaborazione con la Caritas diocesana.
 
