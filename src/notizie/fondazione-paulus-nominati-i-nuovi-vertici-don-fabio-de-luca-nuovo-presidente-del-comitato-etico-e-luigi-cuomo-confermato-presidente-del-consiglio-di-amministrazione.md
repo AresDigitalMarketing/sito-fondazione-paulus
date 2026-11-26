@@ -15,7 +15,7 @@ La Fondazione Paulus guarda al futuro **rinnovando i propri organismi di governo
 
 Nei giorni scorsi si sono infatti **ufficialmente insediati il nuovo Comitato Etico e il nuovo Consiglio di Amministrazione della Fondazione per il prossimo triennio**, nell’ambito del percorso di rinnovo promosso da **Sua Eccellenza Monsignor Carlo Villano**, Vescovo di Pozzuoli e Ischia e fondatore della stessa Fondazione Paulus.
 
-Il nuovo Comitato Etico, nominato dal Vescovo, è composto da **don Fabio De Luca**, **don Giuseppe Carulli**, **Alfonso Liccardo**, **Antonio Bucciero** e **Giuseppina Trani**. Nel corso della riunione del 9 maggio, alla presenza di Monsignor Villano, **il Comitato ha eletto all’unanimità Don Fabio De Luca quale proprio Presidente**.
+Il nuovo Comitato Etico, nominato dal Vescovo, è composto da **don Fabio De Luca**, **don Giuseppe Carulli**, **Alfonso Liccardo**, **Antonio Bucciero** e **Giuseppina Trani**. Nel corso della riunione del 9 maggio, alla presenza di Monsignor Villano, **il Comitato ha eletto all’unanimità don Fabio De Luca quale proprio Presidente**.
 
 Successivamente, il Comitato Etico ha proceduto alla **nomina del nuovo Consiglio di Amministrazione**, composto da **Luigi Cuomo**, **Domenica Centola**, **Loredana Basile**, **don** **Vincenzo Tiano** e **Dario Pinelli**. Il nuovo CdA si è quindi riunito il 12 maggio per l’insediamento ufficiale e per l’elezione del Presidente: su indicazione di don Fabio De Luca, Presidente del Comitato Etico, **il Consiglio ha confermato all’unanimità Luigi Cuomo alla guida della Fondazione Paulus per il prossimo triennio**.
 
