@@ -24,7 +24,7 @@ Nel corso della seduta, i consiglieri hanno evidenziato come il nuovo assetto ra
 > «La Fondazione Paulus dovrà essere sempre più una realtà partecipata e condivisa, capace di coinvolgere nuove persone e nuove competenze per continuare a sostenere chi vive situazioni di fragilità economica e sociale»\
 > Luigi Cuomo, Presidente del Consiglio di Amministrazione della Fondazione Paulus
 
-Da oltre quindici anni la Fondazione Paulus rappresenta **un importante punto di riferimento in Campania nel contrasto al sovraindebitamento,** **all’esclusione finanziaria e al rischio usura**. Nata nell’ambito della Diocesi di Pozzuoli, nel tempo ha esteso il proprio raggio d’azione ben oltre il territorio flegreo, accompagnando famiglie, lavoratori, piccoli imprenditori e persone vulnerabili attraverso attività di ascolto, educazione finanziaria, sostegno e accesso al credito legale.
+Da oltre quindici anni la Fondazione rappresenta **un importante punto di riferimento in Campania nel contrasto al sovraindebitamento,** **all’esclusione finanziaria e al rischio usura**. Nata nell’ambito della Diocesi di Pozzuoli, nel tempo ha esteso il proprio raggio d’azione ben oltre il territorio flegreo, accompagnando famiglie, lavoratori, piccoli imprenditori e persone vulnerabili attraverso attività di ascolto, educazione finanziaria, sostegno e accesso al credito legale.
 
 Un lavoro spesso silenzioso ma fondamentale, realizzato in collaborazione con istituzioni, Caritas, associazioni e realtà del Terzo Settore, che negli anni ha consentito di offrire risposte concrete a centinaia di persone alle prese con difficoltà economiche e con il rischio di cadere nelle reti dell’usura.
 
