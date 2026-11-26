@@ -1,8 +1,8 @@
 ---
 title: Fondazione Paulus, nominati i nuovi vertici
+url_pagina: nominati-i-nuovi-vertici
 titolo_pagina: Fondazione Paulus, nominati i nuovi vertici
 titolo_breve: Fondazione Paulus, nominati i nuovi vertici
-url_pagina: nominati-i-nuovi-vertici
 date: 2026-06-05
 image: /uploads/foto-paulus-nuovi-vertici.webp
 image_alt: Il nuovo Comitato Etico e il nuovo Consiglio di Amministrazione della Fondazione Paulus
@@ -11,9 +11,9 @@ video: ''
 galleria: []
 ---
 
-La Fondazione Antiusura Paulus guarda al futuro rinnovando i propri organismi di governo e confermando il proprio impegno al fianco delle famiglie, dei lavoratori e delle piccole attività economiche che affrontano situazioni di difficoltà economica e rischio usura.
+La Fondazione Paulus guarda al futuro **rinnovando i propri organismi di governo** e confermando il proprio impegno al fianco delle famiglie, dei lavoratori e delle piccole attività economiche che affrontano situazioni di difficoltà economica e rischio usura.
 
-Nei giorni scorsi si sono infatti ufficialmente insediati il nuovo Comitato Etico e il nuovo Consiglio di Amministrazione della Fondazione per il prossimo triennio, nell’ambito del percorso di rinnovo promosso da Sua Eccellenza Monsignor Carlo Villano, Vescovo di Pozzuoli e Ischia e fondatore della stessa Fondazione Paulus.
+Nei giorni scorsi si sono infatti **ufficialmente insediati il nuovo Comitato Etico e il nuovo Consiglio di Amministrazione della Fondazione per il prossimo triennio**, nell’ambito del percorso di rinnovo promosso da **Sua Eccellenza Monsignor Carlo Villano**, Vescovo di Pozzuoli e Ischia e fondatore della stessa Fondazione Paulus.
 
 Il nuovo Comitato Etico, nominato dal Vescovo, è composto da Don Fabio De Luca, Don Giuseppe Carulli, Alfonso Liccardo, Antonio Bucciero e Giuseppina Trani. Nel corso della riunione del 9 maggio, alla presenza di Monsignor Villano, il Comitato ha eletto all’unanimità Don Fabio De Luca quale proprio presidente.
 
