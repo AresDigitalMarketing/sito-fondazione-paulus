@@ -441,4 +441,5 @@ h1, h2, h3 { font-family: var(--serif); color: var(--inchiostro); line-height: 1
 .social-icone svg { width: 24px; height: 24px; }
 
 /* Testo centrato negli articoli */
-.centrato { text-align: center; }
+.centrato { text-align: center; color: var(--rosso); }
+.testo .centrato strong { color: inherit; }
